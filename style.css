@@ -1,0 +1,111 @@
+/* Write your CSS code here */
+body {
+  background-image: url('https://images.unsplash.com/photo-1629277152917-966a1f1705cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.container {
+  height: 450px;
+  max-width: 750px;
+  display: flex;
+}
+
+.closet-1 {
+  background-color: aqua;
+  height: 450px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1516831972173-00f3d79da863?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1aWxkaW5nJTIwaWNlbGFuZHxlbnwwfHwwfHx8MA%3D%3D');
+  width: 50%;
+}
+
+.closet-2 {
+  background-color: rgba(255, 255, 1255, .3);
+  height: 450px;
+  width: 50%;
+  padding: 20px;
+}
+
+.closet-2 h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.closet-2 p {
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.closet-2 h2 {
+  font-weight: 500;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+@media (max-width:691px) {
+  body {
+    background-image: url('https://images.unsplash.com/photo-1629277152917-966a1f1705cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .container {
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .closet-1 {
+    background-color: aqua;
+    height: 450px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1516831972173-00f3d79da863?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJ1aWxkaW5nJTIwaWNlbGFuZHxlbnwwfHwwfHx8MA%3D%3D');
+    width: 95%;
+  }
+
+  .closet-2 {
+    background-color: rgba(255, 255, 1255, .3);
+    height: 200px;
+    width: 95%;
+    padding: 20px;
+  }
+
+  .closet-2 h1 {
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+
+  .closet-2 p {
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .closet-2 h2 {
+    font-weight: 500;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+}
